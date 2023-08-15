@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<stdlib.h>
+main ()
+{
+   int n;
+   printf("donner un nbr\n");
+   while(n<1 || n>3){
+             
+             scanf("%d",&n);
+             
+              if(n<1 || n>3){
+             printf("error\n",n);
+             
+             }
+             }
+             if(n>1 || n<3){
+             printf("coorect\n",n);}
+              system("pause");
+               
+     return 0;
+     
+     
+      }
