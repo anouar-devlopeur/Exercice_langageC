@@ -4,12 +4,12 @@ int main() {
 	int i,j;
     char T[15] = {'a', 'b', 'v', 'a', 'z', 'z', 'b', 'v', 'x', 'o', 'q', 'x', 'a', 'y', 'o'};
 
-    // Triez le tableau en ordre alphabétique
+    // Triez le tableau en ordre alphabÃ©tique
     int n = 15;
     for ( i = 0; i < n - 1; i++) {
     	int min=i;
-        for ( j =  1; j < n; j++) {
-            if (T[j+1] < T[i]) {
+        for ( j = i+ 1; j < n; j++) {
+            if (T[j] < T[min]) {
             	min=j;
             }
              char temp = T[i];
@@ -20,10 +20,10 @@ int main() {
   for (i = 0; i < 15; i++) {
         printf("%c ", T[i]);
     }
-    // Affichez les caractères triés sans répétition
-    printf("\nCaractères triés en ordre alphabétique sans répétition : ");
+    // Affichez les caractÃ¨res triÃ©s sans rÃ©pÃ©tition
+    printf("\nCaractÃ¨res triÃ©s en ordre alphabÃ©tique sans rÃ©pÃ©tition : ");
     for (i = 0; i < n; i++) {
-        // Vérifiez si le caractère courant est différent du précédent
+        // VÃ©rifiez si le caractÃ¨re courant est diffÃ©rent du prÃ©cÃ©dent
         if (i == 0 || T[i] != T[i - 1]) {
             printf("%c ", T[i]);
         }
