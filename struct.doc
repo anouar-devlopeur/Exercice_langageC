@@ -1,0 +1,25 @@
+ les informations des produits
+le nom du produit :A
+   le code du produit:01 
+  la quantite du produit:02
+  le prix du produit:12.00DH
+ le prix TTC du produit 1:13.80DH
+ le nom du produit :B
+   le code du produit:02 
+  la quantite du produit:23
+  le prix du produit:12.00DH
+ le prix TTC du produit 2:13.80DH
+ le nom du produit :C
+   le code du produit:03 
+  la quantite du produit:23
+  le prix du produit:45.00DH
+ le prix TTC du produit 3:51.75DH
+ la liste tous les produits selon l’ordre alphabétique  croissant du nom:
+A
+B
+C
+la liste tous les produits selon l’ordre  décroissant du prix:
+45.00DH
+12.00DH
+12.00DH
+ le produit rechercher est:B
