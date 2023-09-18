@@ -1,0 +1,26 @@
+Challenge langage c : tableau
+Ecrire un programme qui Demande à l’utilisateur de saisir les noms et les notes des apprenants (entre 0 et 20) et lui expliquer qu’une valeur hors de cet intervalle arrêtera la saisie.
+
+A.   Saisir les notes et les mémoriser dans un tableau
+
+B.   Modifier une note par le nom d’apprenant
+
+C.   Supprimer une note par le nom d’apprenant
+
+D.   Classer les notes des apprenants par ordre croissant
+
+E.   Afficher une note par le nom d’apprenant
+
+F.    Compter les notes saisies et afficher leur nombre
+
+G.  Calculer et afficher la moyenne
+
+H.   Comparer chaque note à la moyenne et ajouter, dans l’affichage précédent "égal", "inférieur" ou "supérieur à la moyenne"
+
+I.      Compter et afficher combien il y a de notes supérieures à la moyenne
+
+J.    Dans le tableau de notes, chercher la note la plus petite. Afficher cette note et sa position dans le tableau
+
+K.   Même chose pour la note la plus grande.
+
+Le programme affichera un message d'erreur si le nombre de note saisi est 0.
